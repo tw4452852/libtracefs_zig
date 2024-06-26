@@ -1,0 +1,21 @@
+.{
+    .name = "libtracefs",
+    .version = "1.8.1",
+
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://github.com/Benetti-Engineering-sas/libtracefs/archive/417c2e3aa21af670cc5c13db633dd35292f2d0fa.tar.gz",
+            .hash = "1220296daaa335b0d7874dbdb5d9266d0e452d8bd96f92aa1ce0af323b5cb1af2987",
+        },
+        .libtraceevent = .{
+            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.3.tar.gz",
+            .hash = "12209cd9daf41bf39dcba965a73803d9e78c33c4d299e5471810683dedfe43aaabdb",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
