@@ -1,6 +1,6 @@
 .{
     .name = "libtracefs",
-    .version = "1.8.1",
+    .version = "1.8.1-1",
 
     .dependencies = .{
         .upstream = .{
