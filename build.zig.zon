@@ -1,5 +1,5 @@
 .{
-    .name = "libtracefs",
+    .name = .libtracefs,
     .version = "1.8.1-1",
 
     .dependencies = .{
@@ -18,4 +18,5 @@
         "build.zig.zon",
         "src",
     },
+    .fingerprint = 0x2de4a73f48392f8b,
 }
