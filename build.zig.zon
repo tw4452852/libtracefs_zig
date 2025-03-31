@@ -1,15 +1,15 @@
 .{
     .name = .libtracefs,
-    .version = "1.8.1-1",
+    .version = "1.8.1-2",
 
     .dependencies = .{
         .upstream = .{
             .url = "https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/snapshot/libtracefs-1.8.1.tar.gz",
-            .hash = "1220296daaa335b0d7874dbdb5d9266d0e452d8bd96f92aa1ce0af323b5cb1af2987",
+            .hash = "N-V-__8AAEl7DwApbaqjNbDXh029tdkmbQ5FLYvZb5KqHOCv",
         },
         .libtraceevent = .{
-            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.4.tar.gz",
-            .hash = "122019090b162b378f4c63fb13264ab16d273e89ae6e3c816bffaa45f9b2c7e323b9",
+            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.4-1.tar.gz",
+            .hash = "libtraceevent-1.8.4-1-oCnOibEKAACuANOfhMvPrGEiJ8EGsSHjQUpnwFzIXlg2",
         },
     },
 
